@@ -1,0 +1,64 @@
+@media (max-width: 380px) {
+
+    header {
+        display: flex;
+        background: #FFF;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 375px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    ul {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .links-do-cabecalho {
+        text-align: center;
+        flex-direction: column;
+        text-align: center;
+        font-family: "Public Sans";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: normal;
+        padding: 50px;
+    }
+
+    .sobre {
+        display: flex;
+        Align-items: center;
+        justify-content: center;
+        background: var(--cor-padrao-botao);
+        color: var(--cor-padrao-fonte-botao);
+        font-size: 40px;
+        width: 200px;
+        height: 81px;
+        border: none;
+
+
+    }
+
+    .cadastro {
+        display: flex;
+        Align-items: center;
+        justify-content: center;
+        background: var(--cor-padrao-botao);
+        color: var(--cor-padrao-fonte-botao);
+        font-size: 18px;
+        border: none;
+        width: 106px;
+        height: 25px;
+        border-radius: 5px;
+    }
+}

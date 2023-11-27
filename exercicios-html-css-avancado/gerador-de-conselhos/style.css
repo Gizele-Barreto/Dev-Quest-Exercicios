@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    background-color: var(--cor-de-fundo);
+
+}
+
+section {
+    display: flex;
+    flex-flow: column wrap;
+    place-content: center;
+    align-items: center;
+    width: 450px;
+    height: 250px;
+    margin: 100px auto;
+}
+
+.cartao {
+    background-color: var(--cor-do-cartao);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 4px;
+}
+
+.conselho {
+    color: hsl(193, 38%, 86%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px;
+    width: 345px;
+}
+
+.numero-do-conselho {
+    font-size: 12px;
+    text-transform: uppercase;
+    display: flex;
+    color: hsl(150, 100%, 66%);
+    margin-top: 40px;
+}
+
+.texto-do-conselho {
+    font-size: 23px;
+    padding: 23px;
+    text-align: center;
+}
+
+.imagem-de-divisao {
+    height: 13px;
+    left: 10px;
+}
+
+button {
+    background-color: hsl(150, 100%, 66%);
+    transform: translateY(35%);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+}

@@ -1,0 +1,73 @@
+header {
+    display: flex;
+    background: #FFF;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 60px;
+    width: 1421px;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.titulo1 {
+    color: var(--cor-padao-fonte);
+    font-family: "Public Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.links-do-cabecalho {
+    display: flex;
+    color: var(--cor-padao-fonte);
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sobre {
+    display: flex;
+    Align-items: center;
+    justify-content: center;
+    background: var(--cor-padrao-botao);
+    color: var(--cor-padrao-fonte-botao);
+    border: none;
+    width: 40px;
+    height: 20px;
+}
+
+.cadastro {
+    display: flex;
+    Align-items: center;
+    justify-content: center;
+    background: var(--cor-padrao-botao);
+    color: var(--cor-padrao-fonte-botao);
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 20px;
+}
