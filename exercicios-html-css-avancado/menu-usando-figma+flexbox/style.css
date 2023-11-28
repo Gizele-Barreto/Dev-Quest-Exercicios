@@ -14,17 +14,16 @@ div {
     justify-content: flex-start;
 }
 
-.titulo1 {
+h1 {
     color: var(--cor-padao-fonte);
     font-family: "Public Sans";
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-
 }
 
-.links-do-cabecalho {
+ul {
     display: flex;
     color: var(--cor-padao-fonte);
     font-family: 'Public Sans', sans-serif;
@@ -35,14 +34,12 @@ div {
     justify-content: flex-end;
     flex-wrap: wrap;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
 }
-
 
 li {
     list-style-type: none;
 }
-
 
 a {
     text-decoration: none;
@@ -56,8 +53,7 @@ a {
     background: var(--cor-padrao-botao);
     color: var(--cor-padrao-fonte-botao);
     border: none;
-    width: 40px;
-    height: 20px;
+    padding: 10px 8px 10px 8px;
 }
 
 .cadastro {
@@ -68,6 +64,5 @@ a {
     color: var(--cor-padrao-fonte-botao);
     border: none;
     border-radius: 5px;
-    width: 90px;
-    height: 20px;
+    padding: 10px 20px 10px 20px
 }
