@@ -1,12 +1,15 @@
-section {
+main {
     width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+ul{
     height: 689px;
     display: flex;
     justify-content: center;
     padding: 129px 20px 129px 20px;
     gap: 20px;
 }
-
 .imagem-da-obra {
     display: flex;
     justify-content: flex-start;
